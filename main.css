@@ -1,0 +1,383 @@
+*{
+    font-family: 'Poiret One', cursive;
+}
+body {
+    margin: 0%;
+}
+.baseFrame{
+    background-image:url("images/stockmarket.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+    z-index: 2;
+}
+.baseShadowFrame{
+    background-image: radial-gradient(circle at 48% 344% ,transparent 3%,rgb(0, 0, 0) 97%);
+    z-index: 2;
+}
+.loginBar {
+    background-color: rgb(8, 8, 8);
+    height: 5rem;
+    display: flex;
+    box-shadow: 0px 0px 19px 20px black;
+}
+.topBtn{
+    height: 2rem;
+    width: 5rem;
+    align-self: center;
+    position: relative;
+    left: 75%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: none;
+    transition-duration: 0.3s;
+    
+}
+.topBtn:hover{
+    
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 5px -1px #06f286;
+    cursor: pointer;
+}
+#loginBtn{
+    background: linear-gradient(114deg,#4cddbd,#06f286);
+}
+.mainFrame {
+    border: 2px solid black;
+}
+
+.mainFrame {
+    display: flex;
+    height: 20rem;
+}
+
+.mainFrameContent {
+    
+    width: 50%;
+    padding-left: 2rem;
+}
+#enrollBox{
+    color: white;
+}
+.Money{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+#strikedMoney{
+    font-size: 2rem;
+}
+#descriptionBox h1{
+    color: white;
+    font-size: 3rem;
+}
+#descriptionBox p{
+    color: white;
+}
+#descriptionBox p a{
+    color: white;
+}
+
+#navBar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-image: linear-gradient(rgb(29,29,29),rgb(26,26,26) 20%,rgb(19,19,19) 70%);
+    justify-content: space-around;
+    height: 2.5rem;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0px 0px 19px 20px black;
+}
+
+li {
+    list-style: none;
+}
+#navBar li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.navli a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.timeTable {
+    background-image: linear-gradient(rgb(20, 20, 20),rgb(50,50,50),rgb(80,80,80));
+    height: 20rem;
+}
+
+.timeBox {
+    background-image: linear-gradient(rgb(140, 140, 140),rgb(220,220,220),rgb(140,140,140));
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    height: 14rem;
+    width: 20rem;
+    transition-duration: 0.5s;
+}
+.timeBox:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 5px 40px -20px white
+
+}
+
+.timeHead {
+    height: 5rem;
+    background-image: linear-gradient(114deg,#4cddbd,#06f286); 
+    text-align: center;
+    color: honeydew;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.durations{
+    display: flex;
+}
+.timeHeadType{
+    width: 50%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color: rgb(25,25,25);
+}
+.timeHeadTypeValues{
+    width: 50%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    color: rgb(25,25,25);
+    font-size: 1.4rem;
+}
+
+#aboutSection {
+    background-image: url("images/readMorebg.jpeg");
+    background-position: center;
+    text-align: center;
+}
+#aboutSectionBG{
+    background-image: radial-gradient(circle at 50% 252%, transparent -28%, black 106%);
+}
+#aboutSection h1{
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+#aboutSection p{
+    margin: 0;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+#readMoreBtn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    box-shadow: 0px 6px 9px 1px black;
+    transition-duration: 0.4s;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+#readMoreBtn:hover{
+    box-shadow: none;
+    transition-duration: 0.4s;
+}
+#hiddenPara{
+    display: none;
+}
+#aboutParagraph{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.instructorDetails{
+    height: 25rem;
+    display: flex;
+}
+.aboutInstructor{
+    width: 50%;
+    background-image: linear-gradient(66deg,#ccd3d1,#292929);
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+
+}
+.instructorWords{
+    align-self: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.instructorIcon{
+    width: 50%;
+    background-image: linear-gradient(114deg,#292929,#ccd3d1);
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+}
+.instructorName{
+    align-self: center;
+    padding-left: 0.5rem;
+}
+.name{
+    font-weight: bolder;
+    color: rgb(10, 10, 10);
+    font-size: larger;
+}
+.position{
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    font-size: large;
+}
+.instructorProfilePic{
+    height: 12rem;
+    width: 12rem;
+    align-self: center;
+    border-radius: 10rem;
+    background-image: url("images/53daa4edd695e.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.syllabusHeading{
+    height: 3rem;
+    width: 5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+}
+.syllabusObjects{
+    background-image: linear-gradient(rgb(140, 140, 140),rgb(220,220,220),rgb(140,140,140));
+}
+.syllabusObjects div{
+    font-weight: bolder;
+    font-size: larger;
+    background-image: linear-gradient(114deg,#4cddbd,#06f286); 
+    height: 3rem;
+    box-shadow: 0px 6px 9px 1px black;
+}
+
+.testimonials{
+    background-image: linear-gradient(66deg,#292929,#ccd3d1);
+    height: 25rem;
+    display: flex;
+}
+.dummyIcon{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 25rem;
+}
+.dummyProfilePic{
+    height: 12rem;
+    width: 12rem;
+    align-self: center;
+    border-radius: 10rem;
+    background-image: url("images/53daa4edd695e.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dummyName{
+    align-self: center;
+    padding-left: 0.5rem;
+}
+.dummyOpinion{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    color: rgb(20, 20, 20);
+    height: 25rem;
+}
+.faqHeader{
+    text-align: center;
+    background-image: linear-gradient(66deg,#292929,#ccd3d1);
+    color: rgb(20, 20, 20);
+}
+.faqHeader a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+#test{
+    background-image: linear-gradient(66deg,#292929,#ccd3d1);
+    color: white;
+    text-align: center;
+}
+.faqNav{
+    margin-top: 2rem;
+    border: 2px solid rgb(29,29,29);
+    background: linear-gradient(rgb(29,29,29),rgb(26,26,26) 20%,rgb(19,19,19) 70%);
+    box-shadow: 0px 0px 19px 20px rgb(19,19,19);
+}
+.faqNav li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: larger;
+}
+.faqNav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1rem;
+}
+.quesn{
+    border: 2px solid darkgoldenrod;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.quesnBtn{
+    height: 2rem;
+    width: 2rem;
+}
+.foot{
+    background: linear-gradient(rgb(29,29,29),rgb(26,26,26) 20%,rgb(19,19,19) 70%);
+    height: 20rem;
+}
+.foot h2{
+    color:rgb(255, 244, 227);
+}
+.topFoot{
+    display: flex;
+    height: 65%;
+    justify-content: space-evenly;
+}
+.topFoot a{
+    text-decoration: none;
+    color: rgb(255, 254, 253);
+}
+#links{
+    width: 15%;
+}
+#otherLinks{
+    width: 15%;
+}
+#contactUs{
+    width: 15%;
+}
+.bottomFoot{
+    display: flex;
+    height: 25%;
+    justify-content: center;
+}
+hr{
+    width: 50rem;
+    background-color: blanchedalmond;
+    border-radius: 10rem;
+}
+.bottomFoot p{
+    color: blanchedalmond;
+    align-self: center;
+    font-size: small;
+}
